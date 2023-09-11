@@ -32,9 +32,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/PiZmWhU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/kspHyex.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/0awI1yS.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PiZmWhU.png" height="40%" width="40%" alt="Windows VM"/>
+<img src="https://i.imgur.com/kspHyex.png" height="40%" width="40%" alt="Linux VM"/>
+<br />
+<img src="https://i.imgur.com/0awI1yS.png" height="20%" width="20%" alt="Vnet"/>
 </p>
 <p>
 Create a Resource Group.
