@@ -65,7 +65,7 @@ Observe Your Virtual Network within Network Watcher.
 <br />
 <img src="https://i.imgur.com/Lly14GL.png" height="15%" width="13%" alt="Deny ICMP"/>
 <br />
-<img src="https://i.imgur.com/TYwOpMk.png" height="30%" width="30%" alt="Request Timed Out"/>
+<img src="https://i.imgur.com/TYwOpMk.png" height="25%" width="25%" alt="Request Timed Out"/>
 </p>
 <p>
 Use Remote Desktop to connect to your Windows 10 Virtual Machine.
