@@ -64,7 +64,6 @@ Observe Your Virtual Network within Network Watcher.
 <img src="https://i.imgur.com/CkwGshP.png" height="40%" width="40%" alt="Ping -t"/>
 <br />
 <img src="https://i.imgur.com/Lly14GL.png" height="15%" width="15%" alt="Deny ICMP"/>
-<br />
 <img src="https://i.imgur.com/TYwOpMk.png" height="25%" width="25%" alt="Request Timed Out"/>
 </p>
 <p>
@@ -90,15 +89,25 @@ Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using.
 <br />
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working).
 <br />
-Stop the ping activity
+Stop the ping activity.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FlGzXii.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/iu693uU.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/LdzSqVG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, filter for SSH traffic only.
+<br />
+From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address).
+<br />
+Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark.
+<br />
+Exit the SSH connection by typing ‘exit’ and pressing [Enter].
 </p>
 <br />
 
