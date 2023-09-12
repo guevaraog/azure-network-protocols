@@ -56,14 +56,14 @@ Observe Your Virtual Network within Network Watcher.
 
 <p>
 <img src="https://i.imgur.com/irUGL73.png" height="20%" width="20%" alt="Wireshark"/>
-<img src="https://i.imgur.com/cZ3frp9.png" height="20%" width="20%" alt="ICMP"/>
+<img src="https://i.imgur.com/cZ3frp9.png" height="15%" width="15%" alt="ICMP"/>
 <br />
 <img src="https://i.imgur.com/8HR8n21.png" height="60%" width="35%" alt="First Ping"/>
 <img src="https://i.imgur.com/7zeUNDI.png" height="40%" width="40%" alt="Ping Google"/>
 <br />
 <img src="https://i.imgur.com/CkwGshP.png" height="40%" width="40%" alt="Ping -t"/>
 <br />
-<img src="https://i.imgur.com/Lly14GL.png" height="15%" width="13%" alt="Deny ICMP"/>
+<img src="https://i.imgur.com/Lly14GL.png" height="15%" width="15%" alt="Deny ICMP"/>
 <br />
 <img src="https://i.imgur.com/TYwOpMk.png" height="25%" width="25%" alt="Request Timed Out"/>
 </p>
