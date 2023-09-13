@@ -94,11 +94,11 @@ Stop the ping activity.
 <br />
 
 <p>
-<img src="https://i.imgur.com/FlGzXii.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FlGzXii.png" height="50%" width="50%" alt="Initial SSH"/>
 <br />
-<img src="https://i.imgur.com/iu693uU.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iu693uU.png" height="47%" width="47%" alt="SSH connection"/>
 <br />
-<img src="https://i.imgur.com/LdzSqVG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LdzSqVG.png" height="40%" width="40%" alt="SSH information"/>
 </p>
 <p>
 Back in Wireshark, filter for SSH traffic only.
@@ -112,25 +112,38 @@ Exit the SSH connection by typing ‘exit’ and pressing [Enter].
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/afV7opI.png" height="50%" width="50%" alt="DHCP"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, filter for DHCP traffic only.
+<br />
+From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew).
+<br />
+Observe the DHCP traffic appearing in WireShark.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u7wn5jq.png" height="50%" width="50%" alt="ping google"/>
+<img src="https://i.imgur.com/fHpsoJw.png" height="30%" width="30%" alt="ping disney"/>
 </p>
+Back in Wireshark, filter for DNS traffic only.
+<br />
+From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are.
+<br />
+Observe the DNS traffic being show in WireShark.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MPcPk24.png" height="50%" width="50%" alt="RDP"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, filter for RDP traffic only (tcp.port == 3389).
+<br />
+Oserve the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
+<br />
+Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted.
 </p>
 <br />
